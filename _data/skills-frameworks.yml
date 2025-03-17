@@ -9,11 +9,11 @@
   weight: 4
 
 - name: Node.js
-  weight: 1
+  weight: 3
 
 - name: Flutter
   weight: 2
 
 - name: Express
-  weight: 3
+  weight: 4
 
