@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       chatInput.value = "";
       
       // Send to backend API
-      const response = await fetch("https://YOUR_BACKEND_URL/chat", {
+      const response = await fetch("https://willbot-backend.vercel.app/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: userMsg }),
