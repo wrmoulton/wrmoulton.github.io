@@ -30,9 +30,20 @@ linkedin_username: william-r-moulton
 # > setting this to false, will omit the About Me section
 show_aboutme_card: true
 # about_me_title: The will be displayed as the title in the About Me section
-about_me_title: About Me
+about_me_title: Who Am I
 # about_me_description: This will be displayed under the title.
-about_me_description: "I’m a senior Computer Science major passionate about AI, machine learning, simulations, and software engineering. I absolutely love building projects and exploring the vast new technologies. I'm graduating with my Bachelor's in Fall 2025 and Master's in Fall 2026. Always open to collaborating-feel free to reach out if you have an exciting project in mind! Go RAMS!!"
+about_me_description: | 
+    👋 Hi, my name is William Moulton and I’m a senior Computer Science major based in Florida.
+    
+    🧠 I’m passionate about AI, machine learning, simulations, and software engineering.
+    
+    💻 I love building projects—from VR applications to AI-driven systems—and constantly learning new technologies.
+    
+    🎯 I'm set to graduate with my Bachelor’s in Fall 2025 and my Master’s in 2026.
+    
+    🚀 Always looking for new, exciting projects to collaborate on. Feel free to reach out if you have one!
+    
+    🏈 Go Rams!
 
 # SKILLS SECTION
 # show_skills_card:
