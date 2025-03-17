@@ -2,7 +2,7 @@
 
 > A modern, neumorphism-styled personal website built with Jekyll, showcasing my portfolio, resume, projects, and experience.
 
-[View Live Website](https://wrmoulton.github.io/) · [Connect on LinkedIn](https://linkedin.com/in/william-r-moulton) · [Download Resume](https://wrmoulton.github.io/WilliamMoulton_CV.pdf)
+[View Live Website](https://wrmoulton.github.io/) · [Connect on LinkedIn](https://linkedin.com/in/william-r-moulton) · [Download Resume](https://wrmoulton.github.io/Williams-Resume.pdf)
 
 ---
 
