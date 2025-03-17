@@ -10,6 +10,11 @@
 
 This is my personal website, designed to highlight my skills, experience, and projects as a Computer Science student and developer. The website uses a sleek **neumorphism design** and is built using the [Jekyll](https://jekyllrb.com/) static site generator, making it easy to deploy and maintain via GitHub Pages.
 
+New Interactive Features:
+
+🗨️ WillBot AI Chatbot Assistant: A GPT-powered chatbot assistant that answers questions about my projects, skills, and experience.
+🎮 Hacker Terminal Minigame: A fun command-line style puzzle game built directly into the site.
+
 ---
 
 ## 🛠️ Built With
@@ -32,7 +37,9 @@ This is my personal website, designed to highlight my skills, experience, and pr
 - Filterable projects portfolio with demo links.
 - Dark-themed neumorphism design aesthetic.
 - Fully responsive and optimized for both desktop and mobile.
-
+- WillBot Chatbot integrated using OpenAI's GPT API.
+- Hacker Terminal Minigame with interactive logic puzzles.
+  
 ---
 
 ## 📂 Usage
