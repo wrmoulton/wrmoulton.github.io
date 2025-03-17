@@ -7,7 +7,7 @@
   </p>
   <p>
     Built with
-    <a class="highlight-link" href="https://jekyllrb.com/"target="_blank" rel="noreferrer">
+    <a class="highlight-link" href="https://jekyllrb.com/" target="_blank" rel="noreferrer">
       Jekyll
     </a>
     and powered by
@@ -16,6 +16,17 @@
     </a>
   </p>
 </footer>
+
+<!-- 🔥 Chatbot Button -->
+<div id="chatbot-button" style="position: fixed; bottom: 20px; right: 20px; background-color: #e63946; color: white; border-radius: 50%; padding: 15px; cursor: pointer; z-index: 999;">
+  💬
+</div>
+
+<!-- Chatbot Window -->
+<div id="chatbot-window" style="display:none; position: fixed; bottom: 80px; right: 20px; width: 300px; background-color: #1a1a1a; color: white; border: 2px solid #e63946; border-radius: 10px; padding: 10px; z-index: 999;">
+  <div style="max-height: 300px; overflow-y: auto;" id="chat-messages"></div>
+  <input type="text" id="chat-input" placeholder="Ask WillBot..." style="width: 100%; padding: 5px; margin-top: 10px; background-color: #2a2a2a; color: white; border: none;" />
+</div>
 
 <!-- Google Analytics -->
 {% if site.google-analytics %}
@@ -46,3 +57,6 @@
   }
 </script>
 {% endif %}
+
+<!-- Chatbot JS -->
+<script src="{{ "/_js/chatbot.js" | relative_url }}"></script>
