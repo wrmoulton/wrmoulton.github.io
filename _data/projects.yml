@@ -29,4 +29,26 @@
     - tag: Python
     - tag: SQL
     - tag: Omniverse
+    
+- name: Trade Wizard
+  descr: "Fantasy football trade value analyzer built using the MERN stack. A large-scale group project for UCF's COP4331 class, featuring player data from FantasyPros and both a web and mobile app."
+  demo: https://github.com/wrmoulton/Trade-Wizard
+  tags:
+    - tag: MongoDB
+    - tag: Express
+    - tag: React
+    - tag: Node.js
+    - tag: FantasyPros API
+    - tag: Flutter
+    - tag: Web
+
+- name: Galaxy Collapse
+  descr: "Contact manager web application hosted on a DigitalOcean LAMP droplet. Developed as part of a group project."
+  demo: https://github.com/wrmoulton/Galaxy-Collapse
+  tags:
+    - tag: LAMP
+    - tag: PHP
+    - tag: MySQL
+    - tag: DigitalOcean
+
 
