@@ -91,6 +91,7 @@ projects:
   sort_by: pushed
   exclude:
     archived: true
+    forks: true
     projects:
       - wrmoulton
       - CS1
