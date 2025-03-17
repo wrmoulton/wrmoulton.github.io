@@ -13,14 +13,6 @@
 #     - tag: AngularJS
 #     - tag: Node
 
-- name: Precision VR
-  descr: "Virtual Reality shooting game with Free-for-All and Speed Test game modes, real-time scoring, interactive targets, and seamless scene transitions using Unity and C#."
-  demo: https://github.com/wrmoulton/precision-vr (or live link if available)
-  tags:
-    - tag: Unity
-    - tag: C#
-    - tag: VR
-
 - name: Digital Twin Visualization & Web Interface
   descr: "Developed a digital twin system using SQL, Python, and React to visualize real-time machine states, integrate live data pipelines, and provide interactive web-based controls."
   demo: https://github.com/wrmoulton/digital-twin-visualization (or live link)
@@ -51,4 +43,14 @@
     - tag: MySQL
     - tag: DigitalOcean
 
-
+- name: GeoChangePredictor  
+  descr: "A machine learning system leveraging satellite imagery (BigEarthNet dataset) to predict geographic changes such as urban expansion, deforestation, and flood risks. Combines U-Net, Swin Transformers, ResNet-50, LSTM, and Temporal Convolutional Networks for multi-temporal analysis. Applications include urban planning, climate change monitoring, and disaster preparedness."  
+  demo: "https://geovisionists-demo.com/coming-soon"  
+  tags:   
+    - tag: CNN
+    - tag: Transformer
+    - tag: TCN
+    - tag: LSTM
+    - tag: Python  
+    - tag: TensorFlow/PyTorch   
+  
