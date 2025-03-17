@@ -9,6 +9,11 @@ document.addEventListener("DOMContentLoaded", () => {
     if (chatWindow.style.display === "none") {
       chatWindow.style.display = "block";
       chatInput.focus();
+
+      // Add recommendations ONLY if chat is empty
+      if (chatMessages.innerHTML.trim() === "") {
+        appendRecommendation();
+      }
     } else {
       chatWindow.style.display = "none";
     }
@@ -44,11 +49,45 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // Append user and bot messages
   function appendMessage(sender, text) {
     const msgDiv = document.createElement("div");
     msgDiv.style.marginBottom = "8px";
     msgDiv.innerHTML = `<strong>${sender}:</strong> ${text}`;
     chatMessages.appendChild(msgDiv);
     chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  // Append recommendation buttons
+  function appendRecommendation() {
+    const recDiv = document.createElement("div");
+    recDiv.style.marginBottom = "10px";
+    recDiv.style.opacity = "0.9";
+
+    recDiv.innerHTML = `<strong>Quick Suggestions:</strong><br>`;
+
+    const suggestions = ["/joke", "More on Projects", "More on Experience"];
+
+    suggestions.forEach((text) => {
+      const btn = document.createElement("button");
+      btn.innerText = text;
+      btn.style.margin = "5px 5px 0 0";
+      btn.style.padding = "5px 10px";
+      btn.style.border = "none";
+      btn.style.borderRadius = "5px";
+      btn.style.backgroundColor = "#e63946";
+      btn.style.color = "white";
+      btn.style.cursor = "pointer";
+      btn.style.fontSize = "0.9em";
+
+      btn.addEventListener("click", () => {
+        chatInput.value = text;
+        chatInput.dispatchEvent(new KeyboardEvent('keydown', {key: 'Enter'}));
+      });
+
+      recDiv.appendChild(btn);
+    });
+
+    chatMessages.appendChild(recDiv);
   }
 });
