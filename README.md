@@ -83,4 +83,3 @@ The design and initial template is based on the [Neumorphism Jekyll Theme by lon
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 - [AOS - Animate On Scroll Library](https://michalsnik.github.io/aos/)
 - [GitHub API](https://developer.github.com/v3/)
-
