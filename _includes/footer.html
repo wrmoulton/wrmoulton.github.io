@@ -28,6 +28,18 @@
   <input type="text" id="chat-input" placeholder="Ask WillBot..." style="width: calc(100% - 4px); padding: 8px; background-color: #2a2a2a; color: white; border: none; border-radius: 6px; box-sizing: border-box; margin-top: 5px;" />
 </div>
 
+<!-- Terminal Hacker Challenge -->
+<div id="terminal-modal" style="display:none; position: fixed; bottom: 100px; right: 20px; width: 320px; background-color: #000; color: #00FF00; border: 2px solid #00FF00; border-radius: 12px; padding: 10px; z-index: 1000; box-shadow: 0px 4px 12px rgba(0,0,0,0.4); font-family: monospace;">
+
+  <div id="terminal-content" style="max-height: 300px; overflow-y: auto; margin-bottom: 10px;">
+    <strong>Welcome to WillBot's Hacker Challenge!</strong><br><br>
+    Type <code>start</code> to begin.
+  </div>
+
+  <input type="text" id="terminal-input" placeholder="Type command..." style="width: calc(100% - 4px); padding: 8px; background-color: #111; color: #0f0; border: none; border-radius: 6px; box-sizing: border-box; margin-top: 5px; font-family: monospace;" />
+
+</div>
+
 <!-- Google Analytics -->
 {% if site.google-analytics %}
 <script> /* existing GA script untouched */ </script>
