@@ -17,45 +17,45 @@
 #     - tag: Rails
 #   timeline-side: right
 
-- title: airbnb
-  title-url: https://example.com/
-  date: Sep 2019 - Present
-  subtitle: Fullstack Developer
+- title: University of Central Florida
+  title-url: https://www.ucf.edu/
+  date: 2022 - Present
+  subtitle: B.S. Computer Science | Accelerated B.S. to M.S. | GPA: 3.8
   tags:
-    - tag: React
-    - tag: Javascript
-    - tag: Ruby
-    - tag: Rails
-  timeline-side: right
-
-- title: Google
-  title-url: https://example.com/
-  date: Mar 2019 - Sep 2019
-  subtitle: Software Engineer as Intern
-  tags:
-    - tag: Flutter
-    - tag: Dart
-    - tag: Keycloak
-  timeline-side: right
-
-- title: Super University
-  title-url: https://example.com/
-  date: 2017 - 2019
-  subtitle: M.Sc. Computer Science
+    - tag: Data Structures & Algorithms
+    - tag: System Software
+    - tag: Computer Organization
   timeline-side: left
 
-- title: Facebook
-  title-url: https://example.com/
-  date: Sep 2017 - Mar 2019
-  subtitle: Front-End Developer as Intern
+- title: Institute of Simulation and Training, UCF
+  title-url: https://www.ist.ucf.edu/
+  date: May 2024 - Present
+  subtitle: R&D Intern – AI, XR, & Digital Twins
   tags:
+    - tag: PyTorch
+    - tag: Unity XR
     - tag: React
-    - tag: Node
-    - tag: Javascript
+    - tag: SQL
+    - tag: Omniverse
   timeline-side: right
 
-- title: Super University
-  title-url: https://example.com/
-  date: 2014 - 2017
-  subtitle: B.A. Computer Science
-  timeline-side: left
+- title: iD Tech
+  title-url: https://www.idtech.com/
+  date: April 2023 – August 2023
+  subtitle: Programming Instructor
+  tags:
+    - tag: Java
+    - tag: Python
+    - tag: Lua
+    - tag: Game Development
+  timeline-side: right
+
+- title: Black and Gold Analytics Club
+  title-url: https://knightconnect.campuslabs.com/engage/organization/black-and-gold-analytics
+  date: Jan 2023 – Present
+  subtitle: Vice President
+  tags:
+    - tag: SQL
+    - tag: Python
+    - tag: Leadership
+  timeline-side: right
