@@ -20,13 +20,35 @@
 - title: University of Central Florida
   title-url: https://www.ucf.edu/
   date: August 2022 - Present
-  subtitle: "B.S. Computer Science | Accelerated B.S. to M.S. | GPA: 3.8"
+  subtitle: "B.S. Computer Science Accelerated B.S. to M.S. GPA: 3.8"
   tags:
     - tag: Data Structures & Algorithms
     - tag: System Software
     - tag: Computer Organization
+    - tag: Discrete Structures
   timeline-side: left
 
+- title: Black and Gold Analytics Club
+  title-url: https://www.linkedin.com/company/black-and-gold-analytics/posts/?feedView=all
+  date: Jan 2023 – March 2025
+  subtitle: Vice President
+  tags:
+    - tag: SQL
+    - tag: Python
+    - tag: Leadership
+  timeline-side: right
+  
+- title: iD Tech
+  title-url: https://www.idtech.com/
+  date: April 2023 – August 2023
+  subtitle: Programming Instructor
+  tags:
+    - tag: Java
+    - tag: Python
+    - tag: Lua
+    - tag: Game Development
+  timeline-side: left
+  
 - title: Institute of Simulation and Training, UCF
   title-url: https://www.ist.ucf.edu/
   date: May 2024 - Present
@@ -38,24 +60,3 @@
     - tag: SQL
     - tag: Omniverse
   timeline-side: right
-
-- title: iD Tech
-  title-url: https://www.idtech.com/
-  date: April 2023 – August 2023
-  subtitle: Programming Instructor
-  tags:
-    - tag: Java
-    - tag: Python
-    - tag: Lua
-    - tag: Game Development
-  timeline-side: right
-
-- title: Black and Gold Analytics Club
-  title-url: https://www.linkedin.com/company/black-and-gold-analytics/posts/?feedView=all
-  date: Jan 2023 – March 2025
-  subtitle: Vice President
-  tags:
-    - tag: SQL
-    - tag: Python
-    - tag: Leadership
-  timeline-side: left
