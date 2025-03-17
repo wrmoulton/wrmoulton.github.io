@@ -6,29 +6,29 @@
 #   weight: 5
 
 - name: Azure
-  weight: 4
+  weight: 2
 
 - name: Unity
-  weight: 4
+  weight: 5
 
 - name: Visual Studio
   weight: 4
 
 - name: GitHub
-  weight: 5
+  weight: 3
 
 - name: Git
   weight: 5
 
 - name: SQL
-  weight: 4
+  weight: 3
 
 - name: MongoDB
   weight: 4
 
 - name: Firebase
-  weight: 3
+  weight: 2
 
 - name: NVIDIA Omniverse
-  weight: 3
+  weight: 4
 
