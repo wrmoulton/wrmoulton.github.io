@@ -1,4 +1,4 @@
-# 🌟 William Moulton's Personal Website
+# William Moulton's Personal Website
 
 > A modern, neumorphism-styled personal website built with Jekyll, showcasing my portfolio, resume, projects, and experience.
 
